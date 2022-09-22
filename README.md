@@ -1,6 +1,9 @@
 # nova-os
 A homegrown x86 operating system in C/ASM.
 
+* Currently operating in a 16-bit real mode environment, the bootloader available [here](https://github.com/CarsonAurum/x86_64-bootloader) will most likely
+end up allowing nova to reach full 64-bit execution *
+
 # Building the OS:
 
   1. Generate a GCC cross compiler for i686-elf and store it in `$HOME/opt/cross/`.
